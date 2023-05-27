@@ -1,0 +1,41 @@
+###
+
+POST http://localhost:9000/api/users HTTP/1.1
+
+Content-Type: application/json
+
+{
+  "name": "Juamnnnff",
+  "lastname": "Pfférez",
+  "phone": 89579999,
+  "email": "juagg__npgggerellz@example.com",
+  "password": "contrlaseña123"
+}
+
+###
+
+GET  http://localhost:9000/api/users HTTP/1.1
+
+###
+
+GET  http://localhost:9000/api/users/64220a841ed1c2d29ae88287 HTTP/1.1
+
+
+###
+
+PUT http://localhost:9000/api/users/ HTTP/1.1
+Content-Type: application/json
+
+{
+    
+    "name": "Juan",
+    "lastname": "Pérez",
+    "phone": 999999999,
+    "email": "juanperez@example.com",
+    
+}
+
+
+
+
+
